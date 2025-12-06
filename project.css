@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.cover{
+    height: 500px;
+    width: 1280px;
+    background-image: url(pic/bg\ head.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.cover .head{
+    display: flex;
+    margin-left: 100px;
+}
+.cover .head .logo{
+    display: flex;
+    gap: 10px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+}
+.cover .head .logo img{
+    height: 25px;
+    width: 25px;
+    margin-top: 7px;
+}
+.cover .head .menu ul{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+    margin-top: 30px;
+}
