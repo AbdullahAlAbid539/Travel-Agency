@@ -8,7 +8,7 @@ a {
 }
 
 .cover{
-    height: 500px;
+    height: 600px;
     width: 1280px;
     background-image: url(pic/bg\ head.png);
     background-size: cover;
@@ -22,14 +22,15 @@ a {
     display: flex;
     gap: 10px;
     font-family: "Plus Jakarta Sans", sans-serif;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: bold;
     color: black;
+    margin-top: 15px;
 }
 .cover .head .logo img{
     height: 25px;
     width: 25px;
-    margin-top: 7px;
+    margin-top: 10px;
 }
 .cover .head .menu ul{
     list-style: none;
@@ -40,4 +41,100 @@ a {
     font-weight: 500;
     color: black;
     margin-top: 30px;
+    margin-left: 150px;
+}
+
+.cover .head .menu ul a:hover{
+    color: blue;
+}
+.cover .head .btn ul{
+    list-style: none;
+    display: flex;
+    gap: 35px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+    margin-top: 22px;
+    margin-left: 220px;
+}
+
+.cover .head .btn ul a{
+    display: inline-block;
+}
+.cover .head .btn ul .a_btn{
+    background-color: white;
+    padding: 7px 13px;
+    border-radius: 50px;
+}
+.cover .head .btn ul .a_btn_1{
+    background-color: purple;
+    padding: 7px 13px;
+    border-radius: 50px;
+    color: white;
+}
+.cover .main_div{
+    display: flex;
+    gap: 375px;
+}
+.cover .main_div .exp a{
+    display: inline-block;
+    background-color: white;
+    padding: 7px 35px;
+    border-radius: 50px;
+    color: #f411cf;
+}
+.cover .main_div .exp{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    height: 264px;
+    width: 534px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.cover .main_div .exp h1{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    color: black;
+}
+.cover .main_div .exp p{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: gray;
+    margin-top: 30px;
+}
+.cover .main_div .exp .main_h1{
+    margin-top: 30px;
+}
+.cover .main_div .exp .span{
+    color: #f411cf;
+    font-weight: 800;
+}
+
+.cover .main_div .exp a{
+    margin-top: 25px;
+    display: inline-block;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+.cover .main_div .exp .st{
+    padding: 7px 20px;
+    background-color: purple;
+    color: white;
+}
+
+.cover .main_div .exp .de{
+    padding: 7px 20px;
+    background-color: white;
+    color: black;
+}
+
+
+.cover .main_div .img img{
+    height: 450px;
+    margin-top: 50px;
 }
